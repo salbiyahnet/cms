@@ -22,3 +22,10 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo docker run hello-world
+
+echo "INSTALL CMS"
+
+sudo curl -o cms_install.sh https://cms.s.cdatayun.com/cms_linux/cms_install.sh && sudo chmod +x ./cms_install.sh
+
+sudo ./cms_install.sh install --version 3.5.13
+

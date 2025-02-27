@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "========================="
+echo "INSTALL DOCKER"
+echo "========================="
+
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 sudo apt-get update
@@ -23,7 +27,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 
+echo "========================="
 echo "INSTALL CMS"
+echo "========================="
 
 sudo curl -o cms_install.sh https://cms.s.cdatayun.com/cms_linux/cms_install.sh && sudo chmod +x ./cms_install.sh
 

@@ -33,5 +33,5 @@ echo "========================="
 
 sudo curl -o cms_install.sh https://cms.s.cdatayun.com/cms_linux/cms_install.sh && sudo chmod +x ./cms_install.sh
 
-sudo ./cms_install.sh install --version 3.5.13
+sudo ./cms_install.sh install --version 3.6.9
 

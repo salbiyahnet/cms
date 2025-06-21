@@ -1,5 +1,6 @@
 WAJIB UBUNTU 24.04
-
+```
+git clone https://github.com/salbiyahnet/cms
 ```
 wget https://raw.githubusercontent.com/beryindo/cms/refs/heads/main/install_docker.sh
 sudo chmod +x install_docker.sh

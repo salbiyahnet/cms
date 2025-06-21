@@ -1,7 +1,7 @@
 WAJIB UBUNTU 24.04
 
 ```
-wget https://raw.githubusercontent.com/beryindo/cms/refs/heads/main/install_docker.sh
+wget https://raw.githubusercontent.com/salbiyahnet/cms/refs/heads/main/install_docker.sh
 sudo chmod +x install_docker.sh
 sudo ./install_docker.sh
 ```
